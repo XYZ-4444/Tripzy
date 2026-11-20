@@ -1,0 +1,185 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "userName": "Priya Sharma",
+    "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
+    "vendorId": 1,
+    "vendorName": "Seaside Resort Goa",
+    "rating": 5,
+    "title": "Perfect beach getaway!",
+    "text": "Absolutely loved our stay at Seaside Resort. The beach access is direct, rooms are spacious with beautiful sea views, and the staff goes above and beyond. The infinity pool overlooking the Arabian Sea is stunning at sunset. Food at the restaurant was delicious - tried the Goan fish curry and it was authentic. Will definitely return!",
+    "date": "2026-08-15",
+    "stayDate": "2026-08-10",
+    "tripType": "couple",
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&h=300&fit=crop"
+    ],
+    "helpful": 42,
+    "verified": true,
+    "response": {
+      "from": "Seaside Resort Team",
+      "date": "2026-08-16",
+      "text": "Thank you Priya for this wonderful review! We're thrilled you enjoyed your stay and the Goan fish curry. Hope to welcome you back soon!"
+    }
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "userName": "Rahul Kumar",
+    "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+    "vendorId": 1,
+    "vendorName": "Seaside Resort Goa",
+    "rating": 4,
+    "title": "Great service, minor issues",
+    "text": "Overall excellent experience. The location is unbeatable - right on Calangute beach. Staff is very attentive and friendly. Room was clean and well-maintained. Only minor issue was the WiFi was a bit spotty in the room (worked fine in lobby). Breakfast buffet had good variety. Good value for money.",
+    "date": "2026-08-08",
+    "stayDate": "2026-08-03",
+    "tripType": "family",
+    "images": [],
+    "helpful": 28,
+    "verified": true,
+    "response": {
+      "from": "Seaside Resort Team",
+      "date": "2026-08-09",
+      "text": "Thanks for the feedback Rahul! We've upgraded our WiFi infrastructure since your stay. Hope to see you again!"
+    }
+  },
+  {
+    "id": 3,
+    "userId": 3,
+    "userName": "Ananya Patel",
+    "userAvatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+    "vendorId": 2,
+    "vendorName": "Mountain View Homestay Manali",
+    "rating": 5,
+    "title": "Authentic Himalayan experience",
+    "text": "This homestay is a hidden gem! The family treats you like their own. Waking up to snow-capped peaks from your window is magical. The home-cooked meals (especially the himachali dham) were the highlight. They arranged a local guide for our trek to Jogini Falls. So much better than a generic hotel!",
+    "date": "2026-07-22",
+    "stayDate": "2026-07-18",
+    "tripType": "solo",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=300&fit=crop"
+    ],
+    "helpful": 56,
+    "verified": true,
+    "response": {
+      "from": "Mountain View Family",
+      "date": "2026-07-23",
+      "text": "Ananya beta, thank you for your kind words! It was our pleasure hosting you. Come visit anytime - we'll save you extra dham!"
+    }
+  },
+  {
+    "id": 4,
+    "userId": 4,
+    "userName": "Vikram Singh",
+    "userAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+    "vendorId": 3,
+    "vendorName": "Heritage Palace Jaipur",
+    "rating": 5,
+    "title": "Royal treatment literally!",
+    "text": "Staying in a 300-year-old palace is an experience you can't put a price on. The architecture, the courtyards, the frescoes - every corner tells a story. Our suite had original antique furniture. The cultural evening with folk dancers and puppet show was amazing. Staff dressed in traditional attire adds to the immersion. Pricey but worth every rupee for a special occasion.",
+    "date": "2026-07-10",
+    "stayDate": "2026-07-05",
+    "tripType": "couple",
+    "images": [
+      "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=400&h=300&fit=crop"
+    ],
+    "helpful": 67,
+    "verified": true,
+    "response": null
+  },
+  {
+    "id": 5,
+    "userId": 5,
+    "userName": "Meera Nair",
+    "userAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face",
+    "vendorId": 4,
+    "vendorName": "Backwater Houseboat Alleppey",
+    "rating": 5,
+    "title": "Magical overnight cruise",
+    "text": "One of the most unique experiences of my life! Drifting through the backwaters on a traditional kettuvallam, watching village life unfold on the banks. The crew was wonderful - captain, chef, and helper all so attentive. Fresh karimeen fry caught that morning, toddy tapping demo, stargazing from the deck at night. The AC bedroom was comfortable. Book the premium boat with upper deck!",
+    "date": "2026-06-28",
+    "stayDate": "2026-06-24",
+    "tripType": "family",
+    "images": [
+      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop"
+    ],
+    "helpful": 89,
+    "verified": true,
+    "response": {
+      "from": "Backwater Cruises",
+      "date": "2026-06-29",
+      "text": "Thank you Meera! So glad you enjoyed the karimeen and the stargazing. The backwaters are truly magical at night."
+    }
+  },
+  {
+    "id": 6,
+    "userId": 6,
+    "userName": "Arjun Reddy",
+    "userAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
+    "vendorId": 5,
+    "vendorName": "Adventure Camp Rishikesh",
+    "rating": 4,
+    "title": "Adrenaline rush guaranteed!",
+    "text": "The Grade IV rapids on the Ganga are no joke - proper adventure! The camp setup is basic but clean, right on the river bank. Rafting guides are experienced and safety-conscious. Bonus: daily yoga sessions at sunrise were unexpectedly great. Cliff jumping was scary but thrilling. Food is simple vegetarian but tasty. Not for luxury seekers, but perfect for adventure junkies.",
+    "date": "2026-06-15",
+    "stayDate": "2026-06-10",
+    "tripType": "friends",
+    "images": [
+      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=300&fit=crop"
+    ],
+    "helpful": 34,
+    "verified": true,
+    "response": {
+      "from": "Adventure Camp Team",
+      "date": "2026-06-16",
+      "text": "Thanks Arjun! Glad you conquered the rapids and enjoyed the yoga. The Ganga always tests you but rewards you too!"
+    }
+  },
+  {
+    "id": 7,
+    "userId": 7,
+    "userName": "Kavya Iyer",
+    "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face",
+    "vendorId": 6,
+    "vendorName": "Scuba Dive Center Havelock",
+    "rating": 5,
+    "title": "Best diving in India!",
+    "text": "Did my Open Water certification here and it was incredible. Instructors (shoutout to Deepak!) are patient, thorough, and safety-first. The dive sites around Havelock - Dixon's Pinnacle, Johnny's Gorge, Wall - have amazing coral diversity and marine life. Saw reef sharks, turtles, eagle rays, massive schools of fish. Equipment is well-maintained. Boat rides to sites are smooth. If you're even slightly curious about diving, do it here!",
+    "date": "2026-05-20",
+    "stayDate": "2026-05-15",
+    "tripType": "solo",
+    "images": [],
+    "helpful": 78,
+    "verified": true,
+    "response": {
+      "from": "Dive Center Havelock",
+      "date": "2026-05-21",
+      "text": "Congratulations on your certification Kavya! It was a pleasure teaching you. The Andaman reefs are world-class - come back for advanced!"
+    }
+  },
+  {
+    "id": 8,
+    "userId": 8,
+    "userName": "Sanjay Mehta",
+    "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+    "vendorId": 7,
+    "vendorName": "Royal Rajasthan Tours",
+    "rating": 4,
+    "title": "Well-organized heritage tour",
+    "text": "Booked the 7-day Rajasthan circuit (Jaipur-Jodhpur-Udaipur-Jaisalmer). The itinerary was well-paced, not rushed. Our guide Rajesh knew every fort's history by heart. Driver was safe and the Innova was comfortable. Hotels were good heritage properties. Only suggestion: include more free time for shopping in Jodhpur's clock tower market. Overall great value and hassle-free.",
+    "date": "2026-05-05",
+    "stayDate": "2026-04-25",
+    "tripType": "family",
+    "images": [],
+    "helpful": 45,
+    "verified": true,
+    "response": {
+      "from": "Royal Rajasthan Tours",
+      "date": "2026-05-06",
+      "text": "Thank you Sanjay! We've noted the feedback about Jodhpur shopping time. Rajesh will be delighted to hear your praise!"
+    }
+  }
+]

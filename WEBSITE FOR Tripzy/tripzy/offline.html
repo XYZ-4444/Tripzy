@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tripzy - Offline</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <div class="container flex min-h-screen flex-col items-center justify-center py-12">
+    <div class="text-center">
+      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mb-6" style="color: var(--color-text-tertiary);">
+        <circle cx="12" cy="12" r="10"/>
+        <line x1="12" y1="8" x2="12" y2="12"/>
+        <line x1="12" y1="16" x2="12.01" y2="16"/>
+      </svg>
+      <h1 class="mb-4">You're Offline</h1>
+      <p class="text-secondary mb-6">
+        It looks like you've lost your internet connection. You can still browse previously loaded content, but some features may be unavailable.
+      </p>
+      <button class="btn btn--outline" onclick="window.location.reload()">
+        Try Again
+      </button>
+    </div>
+  </div>
+</body>
+</html>

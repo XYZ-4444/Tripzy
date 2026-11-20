@@ -1,0 +1,85 @@
+{
+  "stats": {
+    "totalUsers": 54200,
+    "totalTripsBooked": 128000,
+    "totalVendorsVerified": 2400,
+    "averageRating": 4.8,
+    "responseRate": 96,
+    "responseTime": "under 2 hours"
+  },
+  "badges": [
+    {
+      "id": "verified-badge",
+      "name": "Verified Vendor",
+      "description": "Vendors who have undergone identity verification and quality checks",
+      "icon": "shield-check",
+      "color": "#22c55e"
+    },
+    {
+      "id": "trust-badge",
+      "name": "Trust Badge Holder",
+      "description": "Vendors with consistently high ratings and excellent service",
+      "icon": "star",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "superhost-badge",
+      "name": "Superhost",
+      "description": "Top-rated vendors with exceptional hospitality",
+      "icon": "crown",
+      "color": "#ec4899"
+    }
+  ],
+  "policies": [
+    {
+      "id": "secure-payments",
+      "title": "Secure Payments",
+      "description": "All transactions are processed through encrypted, PCI-compliant payment gateways.",
+      "icon": "lock",
+      "details": [
+        "We use industry-standard SSL encryption",
+        "Payment data is never stored on our servers",
+        "We comply with PCI DSS Level 1 standards"
+      ]
+    },
+    {
+      "id": "cancelation-protection",
+      "title": "Flexible Cancellation",
+      "description": "Book with confidence knowing you can adjust your plans if needed.",
+      "icon": "refresh-cw",
+      "details": [
+        "Most vendors offer free cancellation up to 24-48 hours before check-in",
+        "Clear cancellation policies displayed before booking",
+        "24/7 support for cancellation assistance"
+      ]
+    },
+    {
+      "id": "24-7-support",
+      "title": "24/7 Customer Support",
+      "description": "Our support team is available around the clock to assist you.",
+      "icon": "headset",
+      "details": [
+        "Live chat, email, and phone support",
+        "Average response time under 2 hours",
+        "Multilingual support available"
+      ]
+    },
+    {
+      "id": "review-integrity",
+      "title": "Review Integrity",
+      "description": "We ensure all reviews are genuine and trustworthy.",
+      "icon": "comments",
+      "details": [
+        "Only verified guests can leave reviews",
+        "We use automated and manual fraud detection",
+        "We do not allow vendors to incentivize reviews"
+      ]
+    }
+  ],
+  "security": {
+    "dataProtection": "We employ bank-level security to protect your personal information.",
+    "privacyPolicy": "Our privacy policy complies with GDPR and other data protection regulations.",
+    "dataEncryption": "All sensitive data is encrypted both in transit and at rest.",
+    "regularAudits": "We undergo regular security audits by third-party experts."
+  }
+}

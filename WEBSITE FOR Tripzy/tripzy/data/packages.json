@@ -1,0 +1,477 @@
+[
+  {
+    "id": 1,
+    "title": "Goa Beach Getaway",
+    "slug": "goa-beach-getaway",
+    "destination": "Goa",
+    "destinationId": 1,
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=500&fit=crop",
+    "duration": 5,
+    "nights": 4,
+    "price": 24999,
+    "currency": "INR",
+    "rating": 4.6,
+    "reviewCount": 567,
+    "type": "beach",
+    "tags": ["Beach", "Relaxation", "Nightlife", "Water Sports"],
+    "description": "Experience the best of Goa with this perfectly curated 5-day beach getaway. From pristine beaches to vibrant nightlife, discover why Goa is India's favorite coastal destination.",
+    "highlights": [
+      "Stay at a 4-star beachfront resort",
+      "Daily breakfast included",
+      "Sunset cruise on Mandovi River",
+      "Water sports at Calangute (parasailing, jet ski)",
+      "North Goa sightseeing (forts, churches, markets)",
+      "South Goa beach hopping",
+      "Free evening for nightlife exploration"
+    ],
+    "inclusions": [
+      "4 nights accommodation",
+      "Daily breakfast",
+      "Airport transfers",
+      "Sightseeing with AC vehicle",
+      "Water sports activities",
+      "Sunset cruise tickets",
+      "All taxes & fees"
+    ],
+    "exclusions": [
+      "Flights/Train tickets",
+      "Lunch & dinner (except mentioned)",
+      "Personal expenses",
+      "Travel insurance",
+      "Entry fees to monuments"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Beach Evening",
+        "activities": [
+          "Arrival at Goa airport/railway station",
+          "Transfer to resort & check-in",
+          "Relax at Calangute Beach",
+          "Sunset at Calangute",
+          "Dinner at resort"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "North Goa Exploration",
+        "activities": [
+          "Breakfast at resort",
+          "Visit Aguada Fort & Sinquerim Beach",
+          "Explore Anjuna Flea Market (Wed only) / Vagator Beach",
+          "Lunch at a beach shack",
+          "Chapora Fort for sunset",
+          "Evening free for nightlife at Tito's/Mambo's"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Water Sports & River Cruise",
+        "activities": [
+          "Early breakfast",
+          "Water sports at Calangute/Baga (parasailing, jet ski, banana ride)",
+          "Lunch at resort",
+          "Afternoon at leisure / spa",
+          "Sunset cruise on Mandovi River with cultural show",
+          "Dinner on cruise"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "South Goa Serenity",
+        "activities": [
+          "Breakfast & check-out (luggage at reception)",
+          "Drive to South Goa",
+          "Visit Basilica of Bom Jesus (Old Goa)",
+          "Palolem Beach - relax & lunch",
+          "Agonda Beach for quiet time",
+          "Return to resort, collect luggage",
+          "Departure transfer"
+        ]
+      }
+    ],
+    "bestTime": "Nov - Feb",
+    "difficulty": "easy",
+    "groupSize": "2-10",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Himalayan Adventure Trek",
+    "slug": "himalayan-adventure-trek",
+    "destination": "Manali",
+    "destinationId": 2,
+    "image": "https://images.unsplash.com/photo-1602477285386-1a8e9e2f8b5f?w=800&h=500&fit=crop",
+    "duration": 7,
+    "nights": 6,
+    "price": 34999,
+    "currency": "INR",
+    "rating": 4.7,
+    "reviewCount": 423,
+    "type": "mountain",
+    "tags": ["Trekking", "Adventure", "Camping", "Nature"],
+    "description": "Embark on an unforgettable 7-day Himalayan adventure through the stunning landscapes of Manali and surrounding valleys. Perfect for adventure enthusiasts and nature lovers.",
+    "highlights": [
+      "Trek to Hampta Pass (4,270m)",
+      "Camp under stars at Chika & Balu Ka Ghera",
+      "Visit Solang Valley & Rohtang Pass",
+      "River crossing & rappelling",
+      "Explore Old Manali cafes",
+      "Visit Hadimba Temple & Vashisht Hot Springs",
+      "Bonfire & local cultural evening"
+    ],
+    "inclusions": [
+      "6 nights accommodation (hotels + camps)",
+      "All meals during trek",
+      "Breakfast & dinner at hotels",
+      "Experienced trek leader & guides",
+      "Camping equipment (tents, sleeping bags, mats)",
+      "Permits & forest entry fees",
+      "AC transport from Manali",
+      "All taxes & fees"
+    ],
+    "exclusions": [
+      "Travel to/from Manali",
+      "Personal trekking gear",
+      "Lunch on non-trek days",
+      "Travel insurance",
+      "Personal expenses",
+      "Porter/mule charges (optional)"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Manali",
+        "activities": [
+          "Arrival at Manali by morning Volvo/bus",
+          "Check-in at hotel, rest & acclimatize",
+          "Visit Hadimba Temple & Mall Road",
+          "Vashisht Hot Springs dip",
+          "Briefing by trek leader",
+          "Early dinner & lights out"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Manali to Jobra - Trek to Chika",
+        "activities": [
+          "Early breakfast",
+          "Drive to Jobra (2 hrs)",
+          "Trek Jobra to Chika (3 hrs, 3,050m)",
+          "Traverse through pine & maple forests",
+          "Camp setup at Chika meadow",
+          "Evening acclimatization walk",
+          "Dinner & bonfire"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Chika to Balu Ka Ghera",
+        "activities": [
+          "Morning trek to Balu Ka Ghera (4-5 hrs, 3,700m)",
+          "Cross Rani Nallah stream",
+          "Stunning views of Deo Tibba peak",
+          "Camp at Balu Ka Ghera",
+          "Acclimatization & rest",
+          "Star gazing session"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Balu Ka Ghera to Hampta Pass to Shea Goru",
+        "activities": [
+          "Pre-dawn start for Hampta Pass (4,270m)",
+          "Cross the pass - panoramic Himalayan views",
+          "Descend to Shea Goru (6-7 hrs total)",
+          "Dramatic landscape change - Lahaul valley",
+          "Camp at Shea Goru",
+          "Celebration dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Shea Goru to Chatru - Drive to Manali",
+        "activities": [
+          "Trek to Chatru (3-4 hrs)",
+          "Drive back to Manali via Rohtang Pass (if open)",
+          "Check-in at hotel, hot shower!",
+          "Relax & explore Old Manali",
+          "Farewell dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Solang Valley Adventure",
+        "activities": [
+          "Day trip to Solang Valley",
+          "Paragliding / Zorbing / Ropeway (optional)",
+          "Visit Atal Tunnel viewpoint",
+          "Return to Manali",
+          "Free evening for shopping"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "activities": [
+          "Leisurely breakfast",
+          "Check-out & transfer to bus stand",
+          "Departure for home"
+        ]
+      }
+    ],
+    "bestTime": "Jun - Oct",
+    "difficulty": "moderate",
+    "groupSize": "6-15",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Royal Rajasthan Heritage",
+    "slug": "royal-rajasthan-heritage",
+    "destination": "Jaipur",
+    "destinationId": 3,
+    "image": "https://images.unsplash.com/photo-1599661046827-d45a64e8c665?w=800&h=500&fit=crop",
+    "duration": 6,
+    "nights": 5,
+    "price": 28999,
+    "currency": "INR",
+    "rating": 4.8,
+    "reviewCount": 789,
+    "type": "heritage",
+    "tags": ["Heritage", "Culture", "Palaces", "History"],
+    "description": "Journey through the royal state of Rajasthan covering Jaipur, Jodhpur, and Udaipur. Experience the grandeur of maharajas, magnificent forts, and vibrant culture.",
+    "highlights": [
+      "Stay in heritage palaces/havelis",
+      "Amber Fort elephant/jeep ride",
+      "City Palace & Jantar Mantar (Jaipur)",
+      "Mehrangarh Fort (Jodhpur)",
+      "Blue City walking tour",
+      "Lake Pichola boat ride (Udaipur)",
+      "City Palace & Jag Mandir (Udaipur)",
+      "Traditional Rajasthani dinner with folk show"
+    ],
+    "inclusions": [
+      "5 nights heritage accommodation",
+      "Daily breakfast",
+      "AC vehicle for all transfers & sightseeing",
+      "English-speaking guide at monuments",
+      "Amber Fort jeep ride",
+      "Lake Pichola boat ride",
+      "Cultural evening with dinner",
+      "All tolls, parking, driver allowance",
+      "All taxes & fees"
+    ],
+    "exclusions": [
+      "Flights/Train tickets",
+      "Lunch & dinner (except mentioned)",
+      "Entry fees to monuments",
+      "Camera fees",
+      "Personal expenses",
+      "Travel insurance"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Jaipur - The Pink City",
+        "activities": [
+          "Arrival in Jaipur",
+          "Check-in at heritage hotel",
+          "Visit City Palace & Museum",
+          "Jantar Mantar Observatory",
+          "Hawa Mahal photo stop",
+          "Evening at Chokhi Dhani (cultural village)",
+          "Rajasthani thali dinner"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Jaipur Forts & Markets",
+        "activities": [
+          "Amber Fort - jeep ride up",
+          "Jaigarh Fort & Nahargarh Fort",
+          "Jal Mahal photo stop",
+          "Lunch at 1135 AD (Amber Fort)",
+          "Shopping at Johari & Bapu Bazaar",
+          "Free evening"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Jaipur to Jodhpur",
+        "activities": [
+          "Early breakfast, drive to Jodhpur (6 hrs)",
+          "Enroute visit Pushkar (Brahma Temple, Lake)",
+          "Check-in at heritage haveli in Jodhpur",
+          "Evening walk in Blue City lanes",
+          "Sunset from Mehrangarh Fort ramparts"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Jodhpur - The Blue City",
+        "activities": [
+          "Mehrangarh Fort guided tour",
+          "Jaswant Thada memorial",
+          "Umaid Bhawan Palace museum",
+          "Clock Tower & Sardar Market",
+          "Drive to Udaipur (5 hrs) via Ranakpur Jain Temple",
+          "Check-in at lake-facing hotel"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Udaipur - City of Lakes",
+        "activities": [
+          "City Palace complex tour",
+          "Crystal Gallery & Vintage Car Museum",
+          "Lake Pichola boat ride to Jag Mandir",
+          "Saheliyon ki Bari garden",
+          "Sunset at Ambrai Ghat",
+          "Farewell dinner at lakeside restaurant"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "activities": [
+          "Leisurely breakfast",
+          "Optional: Monsoon Palace / Sajjangarh",
+          "Check-out & transfer to airport/railway"
+        ]
+      }
+    ],
+    "bestTime": "Oct - Mar",
+    "difficulty": "easy",
+    "groupSize": "2-8",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Kerala Backwaters & Hills",
+    "slug": "kerala-backwaters-hills",
+    "destination": "Kerala",
+    "destinationId": 4,
+    "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&h=500&fit=crop",
+    "duration": 7,
+    "nights": 6,
+    "price": 32999,
+    "currency": "INR",
+    "rating": 4.9,
+    "reviewCount": 634,
+    "type": "backwater",
+    "tags": ["Backwaters", "Houseboat", "Tea Gardens", "Ayurveda"],
+    "description": "Discover God's Own Country - from misty tea gardens of Munnar to serene backwaters of Alleppey. Includes houseboat stay, Ayurveda, and wildlife.",
+    "highlights": [
+      "Munnar tea plantation tour",
+      "Eravikulam National Park (Nilgiri Tahr)",
+      "Mattupetty Dam & Echo Point",
+      "Overnight premium houseboat in Alleppey",
+      "Kumarakom bird sanctuary",
+      "Ayurvedic massage session",
+      "Kochi heritage walk & Kathakali show",
+      "Spice plantation visit"
+    ],
+    "inclusions": [
+      "6 nights accommodation",
+      "Daily breakfast",
+      "1 night AC houseboat with all meals",
+      "Ayurvedic massage (60 min)",
+      "AC vehicle throughout",
+      "Guide at Munnar & Kochi",
+      "Kathakali show tickets",
+      "All taxes & fees"
+    ],
+    "exclusions": [
+      "Flights/Train tickets",
+      "Lunch & dinner (except houseboat)",
+      "Entry fees & camera charges",
+      "Personal expenses",
+      "Travel insurance",
+      "Boat rides (except houseboat)"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kochi Arrival & Drive to Munnar",
+        "activities": [
+          "Arrival at Kochi airport/railway",
+          "Drive to Munnar (4.5 hrs) via waterfalls",
+          "Check-in at resort",
+          "Evening at leisure",
+          "Tea factory visit (if time permits)"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Munnar Sightseeing",
+        "activities": [
+          "Eravikulam National Park (early start)",
+          "Mattupetty Dam & Boating",
+          "Echo Point & Kundala Lake",
+          "Tea Museum & Plantation walk",
+          "Top Station viewpoint",
+          "Evening free for market"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Munnar to Thekkady",
+        "activities": [
+          "Drive to Thekkady (3.5 hrs)",
+          "Check-in at jungle resort",
+          "Spice plantation guided tour",
+          "Periyar Lake boat safari",
+          "Evening: Kathakali & Kalaripayattu show"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Thekkady to Alleppey - Houseboat",
+        "activities": [
+          "Morning nature walk / bamboo rafting",
+          "Drive to Alleppey (4 hrs)",
+          "Board premium houseboat (12:00 PM)",
+          "Cruise through backwaters",
+          "Lunch, snacks, dinner on board",
+          "Overnight on houseboat"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Alleppey to Kumarakom to Kochi",
+        "activities": [
+          "Sunrise on backwaters, breakfast",
+          "Disembark (9:30 AM)",
+          "Visit Kumarakom Bird Sanctuary",
+          "Drive to Kochi (1.5 hrs)",
+          "Check-in at Fort Kochi hotel",
+          "Heritage walk: Jewish Synagogue, Dutch Palace, Chinese Nets",
+          "Sunset at Fort Kochi beach"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Kochi & Ayurveda",
+        "activities": [
+          "Morning Ayurvedic massage (60 min)",
+          "Free time for shopping/cafes",
+          "Optional: Day trip to Athirappilly Falls",
+          "Evening at leisure"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "activities": [
+          "Breakfast & check-out",
+          "Transfer to Kochi airport/railway"
+        ]
+      }
+    ],
+    "bestTime": "Sep - Mar",
+    "difficulty": "easy",
+    "groupSize": "2-8",
+    "featured": true
+  }
+]

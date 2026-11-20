@@ -1,0 +1,339 @@
+/**
+ * Tripzy Design System - CSS Variables
+ * SIH 2026 PS 26204 - AI-Powered Smart Tourism Platform
+ */
+
+:root {
+  /* ========================================
+     COLOR PALETTE
+     ======================================== */
+  
+  /* Primary - Deep Teal/Navy (Tripzy Brand) */
+  --color-primary-50: #E6F2F5;
+  --color-primary-100: #CCE5EB;
+  --color-primary-200: #99CBD7;
+  --color-primary-300: #66B1C3;
+  --color-primary-400: #3397AF;
+  --color-primary-500: #0B5B72;  /* Main brand color */
+  --color-primary-600: #094A5C;
+  --color-primary-700: #073A46;
+  --color-primary-800: #052930;
+  --color-primary-900: #02191A;
+  
+  /* Secondary/Accent - Warm Coral/Orange */
+  --color-accent-50: #FFF3F0;
+  --color-accent-100: #FFE7E0;
+  --color-accent-200: #FFCEC1;
+  --color-accent-300: #FFB5A2;
+  --color-accent-400: #FF9C83;
+  --color-accent-500: #FF7A45;  /* Main accent color */
+  --color-accent-600: #E65D2E;
+  --color-accent-700: #CC4D24;
+  --color-accent-800: #B33D1A;
+  --color-accent-900: #992E10;
+  
+  /* Semantic Colors */
+  --color-success-500: #10B981;
+  --color-success-600: #059669;
+  --color-warning-500: #F59E0B;
+  --color-warning-600: #D97706;
+  --color-error-500: #EF4444;
+  --color-error-600: #DC2626;
+  --color-info-500: #3B82F6;
+  --color-info-600: #2563EB;
+  
+  /* Neutrals */
+  --color-white: #FFFFFF;
+  --color-neutral-50: #FAFAF9;
+  --color-neutral-100: #F5F5F4;
+  --color-neutral-200: #E7E5E4;
+  --color-neutral-300: #D6D3D1;
+  --color-neutral-400: #A8A29E;
+  --color-neutral-500: #78716C;
+  --color-neutral-600: #57534E;
+  --color-neutral-700: #44403C;
+  --color-neutral-800: #292524;
+  --color-neutral-900: #1C1917;
+  --color-neutral-950: #0C0A09;
+  
+  /* Surface Colors */
+  --color-surface: var(--color-white);
+  --color-surface-hover: var(--color-neutral-50);
+  --color-surface-active: var(--color-neutral-100);
+  --color-surface-elevated: var(--color-white);
+  --color-bg-primary: var(--color-neutral-50);
+  --color-bg-secondary: var(--color-white);
+  --color-bg-tertiary: var(--color-neutral-100);
+  
+  /* Text Colors */
+  --color-text-primary: var(--color-neutral-900);
+  --color-text-secondary: var(--color-neutral-600);
+  --color-text-tertiary: var(--color-neutral-500);
+  --color-text-inverse: var(--color-white);
+  --color-text-link: var(--color-primary-500);
+  --color-text-link-hover: var(--color-primary-600);
+  
+  /* Border Colors */
+  --color-border-light: var(--color-neutral-200);
+  --color-border-medium: var(--color-neutral-300);
+  --color-border-dark: var(--color-neutral-400);
+  --color-border-focus: var(--color-primary-500);
+  
+  /* ========================================
+     TYPOGRAPHY
+     ======================================== */
+  
+  /* Font Families */
+  --font-family-display: 'Playfair Display', Georgia, serif;
+  --font-family-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  
+  /* Font Sizes (Mobile First) */
+  --text-xs: 0.75rem;    /* 12px */
+  --text-sm: 0.875rem;   /* 14px */
+  --text-base: 1rem;     /* 16px */
+  --text-lg: 1.125rem;   /* 18px */
+  --text-xl: 1.25rem;    /* 20px */
+  --text-2xl: 1.5rem;    /* 24px */
+  --text-3xl: 1.875rem;  /* 30px */
+  --text-4xl: 2.25rem;   /* 36px */
+  --text-5xl: 3rem;      /* 48px */
+  --text-6xl: 3.75rem;   /* 60px */
+  --text-7xl: 4.5rem;    /* 72px */
+  
+  /* Desktop adjustments via media queries */
+  
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  
+  /* Line Heights */
+  --leading-tight: 1.1;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+  
+  /* Letter Spacing */
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.02em;
+  --tracking-wider: 0.04em;
+  --tracking-widest: 0.1em;
+  
+  /* ========================================
+     SPACING SCALE (4px base)
+     ======================================== */
+  --space-0: 0;
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+  --space-32: 8rem;     /* 128px */
+  
+  /* ========================================
+     BORDER RADIUS
+     ======================================== */
+  --radius-none: 0;
+  --radius-sm: 0.25rem;   /* 4px */
+  --radius-md: 0.375rem;  /* 6px */
+  --radius-lg: 0.5rem;    /* 8px */
+  --radius-xl: 0.75rem;   /* 12px */
+  --radius-2xl: 1rem;     /* 16px */
+  --radius-3xl: 1.5rem;   /* 24px */
+  --radius-full: 9999px;
+  
+  /* ========================================
+     SHADOWS
+     ======================================== */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --shadow-float: 0 20px 40px rgba(0, 0, 0, 0.15);
+  
+  /* ========================================
+     TRANSITIONS
+     ======================================== */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slower: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* ========================================
+     Z-INDEX SCALE
+     ======================================== */
+  --z-index-auto: auto;
+  --z-index-0: 0;
+  --z-index-10: 10;
+  --z-index-20: 20;
+  --z-index-30: 30;
+  --z-index-40: 40;
+  --z-index-50: 50;
+  --z-index-dropdown: 100;
+  --z-index-sticky: 200;
+  --z-index-fixed: 300;
+  --z-index-modal-backdrop: 400;
+  --z-index-modal: 500;
+  --z-index-popover: 600;
+  --z-index-tooltip: 700;
+  --z-index-toast: 800;
+  
+  /* ========================================
+     LAYOUT
+     ======================================== */
+  --header-height: 4rem;           /* 64px */
+  --header-height-scrolled: 3.5rem; /* 56px */
+  --container-max: 80rem;          /* 1280px */
+  --container-wide: 90rem;         /* 1440px */
+  --container-full: 100%;
+  --sidebar-width: 16rem;          /* 256px */
+  --sidebar-collapsed: 4rem;       /* 64px */
+  
+  /* ========================================
+     BREAKPOINTS (Mobile First)
+     ======================================== */
+  --bp-sm: 480px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+  --bp-2xl: 1536px;
+  
+  /* ========================================
+     COMPONENT SPECIFIC
+     ======================================== */
+  
+  /* Button Heights */
+  --btn-height-sm: 2rem;      /* 32px */
+  --btn-height-md: 2.5rem;    /* 40px */
+  --btn-height-lg: 3rem;      /* 48px */
+  --btn-height-xl: 3.5rem;    /* 56px */
+  
+  /* Input Heights */
+  --input-height-sm: 2rem;    /* 32px */
+  --input-height-md: 2.5rem;  /* 40px */
+  --input-height-lg: 3rem;    /* 48px */
+  
+  /* Card */
+  --card-padding: var(--space-6);
+  --card-gap: var(--space-6);
+  
+  /* Grid */
+  --grid-cols-1: 1;
+  --grid-cols-2: 2;
+  --grid-cols-3: 3;
+  --grid-cols-4: 4;
+  --grid-cols-5: 5;
+  --grid-cols-6: 6;
+  --grid-cols-12: 12;
+  
+  /* ========================================
+     ACCESSIBILITY
+     ======================================== */
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 2px;
+  --focus-ring-color: var(--color-primary-500);
+  
+  /* Reduced Motion */
+  --transition-duration: var(--transition-normal);
+}
+
+/* ========================================
+   DESKTOP TYPOGRAPHY OVERRIDES
+   ======================================== */
+@media (min-width: 768px) {
+  :root {
+    --text-5xl: 4rem;      /* 64px */
+    --text-6xl: 5rem;      /* 80px */
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --text-5xl: 4.5rem;    /* 72px */
+  }
+}
+
+/* ========================================
+   DARK MODE SUPPORT (Future)
+   ======================================== */
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="dark"] {
+    --color-surface: var(--color-neutral-900);
+    --color-surface-hover: var(--color-neutral-800);
+    --color-surface-active: var(--color-neutral-700);
+    --color-surface-elevated: var(--color-neutral-800);
+    --color-bg-primary: var(--color-neutral-950);
+    --color-bg-secondary: var(--color-neutral-900);
+    --color-bg-tertiary: var(--color-neutral-800);
+    --color-text-primary: var(--color-neutral-50);
+    --color-text-secondary: var(--color-neutral-400);
+    --color-text-tertiary: var(--color-neutral-500);
+    --color-border-light: var(--color-neutral-700);
+    --color-border-medium: var(--color-neutral-600);
+    --color-border-dark: var(--color-neutral-500);
+    --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
+    --shadow-card-hover: 0 8px 30px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* ========================================
+   HIGH CONTRAST MODE
+   ======================================== */
+@media (prefers-contrast: high) {
+  :root {
+    --color-border-light: var(--color-text-primary);
+    --color-border-medium: var(--color-text-primary);
+    --shadow-card: 0 0 0 1px var(--color-text-primary);
+    --shadow-card-hover: 0 0 0 2px var(--color-text-primary);
+  }
+}
+
+/* ========================================
+   REDUCED MOTION
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms;
+    --transition-normal: 0ms;
+    --transition-slow: 0ms;
+    --transition-slower: 0ms;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ========================================
+   PRINT STYLES
+   ======================================== */
+@media print {
+  :root {
+    --color-primary-500: #0B5B72;
+    --color-accent-500: #FF7A45;
+  }
+}
